@@ -1,19 +1,49 @@
 *{
     margin: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1{
-    color: azure;
+    color: rgb(2, 62, 80);
     font-size: 50px;
-    text-decoration: underline;
+    text-shadow: 2px 2px;
+    text-shadow: red;
+    
 }
 
+#header-border {
+    border-width: 10px;
+    border-color: white;
+    border-style: outset;
+    background-color: azure;
+  }
+
+  #container-border{
+    border-width: 10px;
+    border-color: whitesmoke;
+    border-style: inset;
+    background-color: azure;
+  }
+
+  #container__play--border{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-width: 2.5px;
+        border-color: rgb(2, 62, 80);
+        border-style: solid;
+        background-color: azure;
+        margin-right: 300px;
+        margin-left: 300px;
+  }
+
 main{
-    color: azure;
+    color: rgb(2, 62, 80);
 }
 
 body{
-    background-color: grey;
+    background-color: rgb(2, 62, 80);
+    text-align: center;
+    
 }
 
 footer{
@@ -21,5 +51,8 @@ footer{
     font-size: 10px;
     text-align: right;    
 }
+
+
+  
 
 /*# sourceMappingURL=/singlePlayer.727801df.css.map */
