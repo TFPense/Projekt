@@ -1,0 +1,25 @@
+*{
+    margin: 6px;
+}
+
+h1{
+    color: azure;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+main{
+    color: azure;
+}
+
+body{
+    background-color: grey;
+}
+
+footer{
+    color: azure;
+    font-size: 10px;
+    text-align: right;
+}
+
+/*# sourceMappingURL=/Projekt.9ad09f98.css.map */

@@ -4,9 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "Start": "parcel index.html"
+    "start": "parcel index.html single.html",
+    "build": "parcel build single.html index.html --out-dir docs --public-url ."
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  }
 }

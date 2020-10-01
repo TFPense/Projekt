@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singleplayer</title>
+    <script src="./singlePlayer.js" type="module"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="singlePlayer.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Singleplayer</h1>
+
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="container__play">
+                <label for="antwort"><br />Choose your fighter: </label>
+                <div class="container__play__selecter">
+                    <select name="antwort" id="playerAnswer">
+                        <option value="Schere"> Schere </option>
+                        <option value="Stein">Stein</option>
+                        <option value="Papier">Papier</option>
+                    </select>
+                </div>
+                <div class="container__play__submitDiv">
+                    <input 
+                            class="SubmitBtn"
+                            id="SubmitBtn"
+                            type="submit"
+                            value="Submit"
+                        />
+                </div>
+                <div class="container__play__result">
+                        <p id="singlePlayerResult">  </p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p><br />Bootcamp 2020</p>
+    </footer>
+</body>
+</html>
