@@ -30,6 +30,7 @@ h1{
         margin-bottom: 50px;
         border-width: 2.5px;
         border-color: rgb(2, 62, 80);
+        border-radius: 15px;
         border-style: solid;
         background-color: azure;
         
@@ -37,6 +38,20 @@ h1{
 
 main{
     color: rgb(2, 62, 80);
+}
+
+#playerAnswer{
+    background-color: rgb(2, 62, 80);
+    color: azure;
+    font-size: medium;
+    width: 350px;
+    text-align-last: center;
+}
+
+#singlePlayerResult{
+    border-radius: 15px;
+    border: 2px solid;
+    border-color: rgb(2, 62, 80);
 }
 
 body{
