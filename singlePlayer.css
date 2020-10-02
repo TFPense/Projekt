@@ -32,8 +32,7 @@ h1{
         border-color: rgb(2, 62, 80);
         border-style: solid;
         background-color: azure;
-        margin-right: 300px;
-        margin-left: 300px;
+        
   }
 
 main{
@@ -49,7 +48,8 @@ body{
 footer{
     color:azure;
     font-size: 10px;
-    text-align: right;    
+    text-align: right; 
+    text-decoration: overline;   
 }
 
 
