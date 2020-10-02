@@ -7,7 +7,7 @@ h1{
     color: rgb(2, 62, 80);
     font-size: 50px;
     text-shadow: 2px 2px;
-    text-shadow: red;
+    text-shadow: rgba(0, 0, 0, 0.199);
     
 }
 
@@ -53,11 +53,20 @@ main{
     border: 2px solid;
     border-color: rgb(2, 62, 80);
 }
+#container__play__submitDiv{
+    border-radius: 15px;
+}
 
 body{
     background-color: rgb(2, 62, 80);
     text-align: center;
     
+}
+
+#btnsCon__p1Btn{
+    text-align: left;
+    border-radius: 25px;
+    font-size: small;
 }
 
 footer{
