@@ -11219,13 +11219,13 @@ $ = window.$ = window.jquery = jquery;
 function callSingleEndpoint(Answer) {
   event.preventDefault();
   var x = document.getElementById("singlePlayerResult");
-  var apiUrl = "https://vast-wildwood-04775.herokuapp.com/rps/?" + "&decisionPlayer1=" + Answer;
+  var apiUrl = "https://mighty-depths-83263.herokuapp.com/ssp?" + "&playerDecision=" + Answer;
   $.get({
     url: apiUrl,
     success: function success(data, status) {
       console.log("Data: " + data + "\nStatus: " + status);
       var obj = JSON.parse(data);
-      x.innerHTML = "  The Winner is:   " + "   " + obj.Winner;
+      x.innerHTML = "  The Winner is:   " + "   " + obj.winner;
     },
     error: function error(XMLHttpRequest, textStatus, errorThrown) {
       alert(textStatus, errorThrown);
@@ -11276,7 +11276,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49934" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62485" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

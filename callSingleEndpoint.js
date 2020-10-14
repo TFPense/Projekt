@@ -9,8 +9,8 @@ function callSingleEndpoint(Answer){
     var x = document.getElementById("singlePlayerResult");
 
     const apiUrl =
-    "https://vast-wildwood-04775.herokuapp.com/rps/?" +
-    "&decisionPlayer1=" +
+    "https://mighty-depths-83263.herokuapp.com/ssp?" +
+    "&playerDecision=" +
     Answer;
 
     $.get({
@@ -19,7 +19,7 @@ function callSingleEndpoint(Answer){
           console.log("Data: " + data + "\nStatus: " + status);
           var obj = JSON.parse(data);
           
-          x.innerHTML = "  The Winner is:   " + "   " + obj.Winner;
+          x.innerHTML = "  The Winner is:   " + "   " + obj.winner;
         },
         error: function (XMLHttpRequest, textStatus, errorThrown) {
           alert(textStatus, errorThrown);
